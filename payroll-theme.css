@@ -1,0 +1,133 @@
+.root {
+    -fx-font-family: "Segoe UI";
+    -fx-background-color: #F3F6FC;
+}
+
+.label {
+    -fx-text-fill: #26364D;
+    -fx-font-size: 13px;
+}
+
+.page-title {
+    -fx-font-size: 27px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #172B4D;
+}
+
+.subtitle {
+    -fx-font-size: 13px;
+    -fx-text-fill: #718096;
+}
+
+.button {
+    -fx-background-color: #2563EB;
+    -fx-text-fill: white;
+    -fx-font-size: 13px;
+    -fx-font-weight: bold;
+    -fx-background-radius: 8px;
+    -fx-padding: 11px 20px;
+    -fx-cursor: hand;
+}
+
+.button:hover {
+    -fx-background-color: #1D4ED8;
+}
+
+.secondary-button {
+    -fx-background-color: #E8EEF8;
+    -fx-text-fill: #172B4D;
+}
+
+.secondary-button:hover {
+    -fx-background-color: #D7E2F2;
+}
+
+.danger-button {
+    -fx-background-color: #DC3545;
+}
+
+.danger-button:hover {
+    -fx-background-color: #B91C1C;
+}
+
+.text-field, .password-field, .combo-box, .date-picker {
+    -fx-background-color: white;
+    -fx-border-color: #D8E1EF;
+    -fx-border-radius: 7px;
+    -fx-background-radius: 7px;
+    -fx-padding: 10px;
+    -fx-font-size: 13px;
+}
+
+.text-field:focused, .password-field:focused {
+    -fx-border-color: #2563EB;
+}
+
+.table-view {
+    -fx-background-color: white;
+    -fx-border-color: #DCE4F0;
+    -fx-border-radius: 10px;
+    -fx-background-radius: 10px;
+}
+
+.table-view .column-header-background {
+    -fx-background-color: #172B4D;
+    -fx-background-radius: 9px 9px 0 0;
+}
+
+.table-view .column-header {
+    -fx-background-color: transparent;
+    -fx-size: 42px;
+}
+
+.table-view .column-header .label {
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+}
+
+.table-row-cell {
+    -fx-cell-size: 40px;
+    -fx-border-color: transparent transparent #EDF1F7 transparent;
+}
+
+.table-row-cell:selected {
+    -fx-background-color: #DBEAFE;
+}
+
+.dashboard-card {
+    -fx-background-color: white;
+    -fx-background-radius: 14px;
+    -fx-border-color: #E2E8F0;
+    -fx-border-radius: 14px;
+    -fx-padding: 20px;
+    -fx-effect: dropshadow(gaussian, #CBD5E1, 12, 0.12, 0, 3);
+}
+
+.card-button {
+    -fx-pref-width: 245px;
+    -fx-pref-height: 75px;
+    -fx-font-size: 15px;
+    -fx-background-radius: 12px;
+}
+
+.slip-heading {
+    -fx-background-color: #172B4D;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-padding: 10px;
+}
+
+.net-pay {
+    -fx-background-color: #E8F7EF;
+    -fx-text-fill: #087443;
+    -fx-font-size: 24px;
+    -fx-font-weight: bold;
+    -fx-padding: 18px;
+    -fx-background-radius: 10px;
+}
+
+.section-title {
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #172B4D;
+}

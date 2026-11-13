@@ -1,0 +1,8 @@
+target/
+*.csv
+*.log
+*.pdf
+.idea/
+.env
+SalarySlips/
+backup/
